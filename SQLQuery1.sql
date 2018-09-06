@@ -1,0 +1,1 @@
+﻿select  TOP 100 PERCENT  name,type, ac_non_ac , plate_no , seat , cost_per_day   from vehicle where route_id in  (select route_id from route where cityname='Coxs Bajar' and destination ='dhaka');

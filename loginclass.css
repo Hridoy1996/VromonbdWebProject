@@ -1,0 +1,31 @@
+﻿body {
+}
+.loginclass  > a {
+ 
+   position:relative;
+    text-decoration: none;
+    color:#4CAF50;
+    float:right;
+    padding-right:5%;
+}
+.loginclass  >   a:hover {
+        color:black;
+    }
+.log{
+    background-color:white; /* Green */
+    border:none;
+    color: #4CAF50;
+    padding: 0px 30px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px 5px;
+    cursor: pointer;
+    float:right;
+    
+}
+    .log:hover {
+        color:black;
+
+    }

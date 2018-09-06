@@ -1,0 +1,176 @@
+﻿html, body {
+    padding: 0;
+    margin:0;
+}
+
+
+.loginclass,a {
+
+    text-decoration: none;
+   
+   
+    color:#4CAF50;
+    float:right;
+    padding-right:2%;
+}
+    a:hover {
+        color:black;
+    }
+    
+  input[type=text], select, textarea {
+
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+
+.datebox > input  {
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 3px 5px;
+  box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+  width: 190px;
+}
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.srccls{
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+.srccls:hover {
+    background-color: #45a049;
+}
+
+.container {
+   width:50%;
+   float:left;
+    border-radius: 5px;
+    background-color: #f0f7e6;
+    padding-top:20px;
+    padding-left:8px;
+    margin-right:10px;
+       margin-left:10px;
+
+}
+
+
+
+.col-25 {
+    float: left;
+    width: 20%;
+    margin-top: 6px;
+   
+}
+
+.col-75 {
+    float: left;
+    width: 30%;
+    margin-top: 6px;
+}
+
+.row:after {
+
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+@media (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+label {
+  display: block;
+}
+
+
+/* image slider er jonno code ekhone suru */
+
+.slider {
+	width: 45%;
+	margin: 2em auto;
+    
+	
+}
+.slider_form {
+    width:100%;
+    margin-top:-25px;
+     border-bottom: 3px solid #64930b;
+}
+
+.slider-wrapper {
+
+	width: 100%;
+   
+	height: 400px;
+	position: initial;
+}
+
+.slide {
+	float: left;
+	position: absolute;
+    margin-right:10px;
+	width: 45%;
+	height: 400px;
+	opacity: 0;
+	transition: opacity 1s linear;
+}
+
+
+.slider-wrapper > .slide:first-child {
+	opacity: 1;
+}
+
+/* image slidee er odee ekhane ses */
+
+
+
+.log{
+    background-color:white; /* Green */
+    border:none;
+    color: #4CAF50;
+    padding: 0px 30px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px 5px;
+    cursor: pointer;
+    float:right;
+    
+}
+    .log:hover {
+        color:black;
+
+    }
+
+/* code fro autocomplet*/
+/* Autocomplete
+----------------------------------*/
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/*auto-completebox css code here*/
+

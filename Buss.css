@@ -1,0 +1,23 @@
+﻿
+
+.busses_list {
+    background-color:#f7eecf;
+}
+.list_head {
+    text-align:center;
+    color:#edca53;
+}
+.busses_list ul {
+  width: 100%;
+}
+.busses_list  li {
+width: 20%;
+height: 20px;
+margin-top: 10px;
+margin-right: 10px;
+display: inline-block;
+}
+.rem {
+    
+    padding-top:140px;
+}
